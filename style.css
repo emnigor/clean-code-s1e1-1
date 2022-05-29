@@ -4,27 +4,27 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.logo {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.logo img {
   width: 100%;
 }
-.aaa .more_inf {
+.logo .info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
     
-  .aaa { 
+  .logo { 
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.adder-item {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 ul {
@@ -154,11 +154,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul .editMode input[type=text] {
+ul .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul .editMode label {
+ul .edit-mode label {
   display: none;
 }
